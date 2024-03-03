@@ -1,0 +1,45 @@
+.filter-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+  height: 200px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.filter-container h1 {
+  height: 50px;
+}
+
+.filter-container p {
+  height: 10px;
+}
+
+.filter-container input,
+.filter-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 20px;
+}
+
+.filter-container input:focus,
+.filter-container select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.filter-container select {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .filter-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
