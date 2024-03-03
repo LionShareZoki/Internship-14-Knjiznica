@@ -1,8 +1,17 @@
-# React + Vite
+# React#1 Knjižnica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview 
 
-Currently, two official plugins are available:
+This is react js local library project created for educational purpose as a homework for an internship.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Adding new book: Provides the possibility to add a new book to a library throught form which has validation
+- Filtering: There is a filter so that users can filter books by typing or choosing genre
+- Borrowing: You can borrow or return books by clicking the buttons on a book.
+
+
+## How to test locally:
+1. Clone the repository
+2. Run the server
+3. Test all the features
